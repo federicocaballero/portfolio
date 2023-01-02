@@ -2,37 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*GLOBALS*/
+*{
+  font-family: 'IBM Plex Mono', monospace;
+}
+:root {
+  --color1: #ffffff;
+  --color2: #cccccc;
+  --color3: #808080;
+  --color4: #090909;
+}
+/*GLOBALS*/
+
+/*NAVBAR STYLES*/
+.navbar-component{
+  background-color: var(--color1) ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links{
+  color: var(--color4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.links:hover{
+  color: var(--color3);
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*NAVBAR STYLES*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
