@@ -33,7 +33,7 @@
 .banner-component{
   background-color: var(--color4);
   color: var(--color1);
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bolder;
 }
 
@@ -49,3 +49,49 @@
   transform: scale(1.2);
 }
 /*BANNER STYLES*/
+
+/*ABOUT ME STYLES*/
+
+.AM-component{
+  background-color: var(--color4);
+  color: var(--color1);
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.AB-text{
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--color3);
+}
+/*ABOUT ME STYLES*/
+
+/*SKILLS STYLES*/
+
+.skills-component{
+  background-color: var(--color4);
+}
+.title{
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--color1);
+  padding-top: 0;
+}
+/*SKILLS STYLES*/
+
+/*PROJECTS STYLES*/
+.projects-text{
+  color: var(--color2);
+}
+
+.link-projects{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.link-projects:hover{
+  color: var(--color1);
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+/*PROJECTS STYLES*/
