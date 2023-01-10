@@ -13,6 +13,18 @@
   --color4: #090909;
 }
 
+.title{
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--color1);
+  padding-top: 0;
+}
+
+.subtitle{
+  color: var(--color1);
+}
+
+/* WAVES STYLES */
 .prueba{
   height: 100px; overflow: hidden;
 }
@@ -40,6 +52,7 @@
   stroke: none; 
   fill: var(--color1);
 }
+/* WAVES STYLES */
 
 /*GLOBALS*/
 
@@ -102,12 +115,100 @@
 .skills-component{
   background-color: var(--color4);
 }
-.title{
-  font-size: 40px;
-  font-weight: bolder;
-  color: var(--color1);
-  padding-top: 0;
+
+.html-bg:hover{
+  background-color: #f06529;
+  color: var(--color4);
 }
+
+.css-bg:hover{
+  background-color: #264de4 ;
+  color: var(--color4);
+}
+
+.js-bg:hover{
+  background-color: #f0db4f  ;
+  color: var(--color4);
+}
+
+.sql-bg:hover{
+  background-color: #00758f  ;
+  color: var(--color4);
+}
+
+.bs-bg:hover{
+  background-color: #563d7c  ;
+  color: var(--color4);
+}
+
+.react-bg:hover{
+  background-color: #88dded  ;
+  color: var(--color4);
+}
+
+.ci-bg:hover{
+  background-color: #ee5822  ;
+  color: var(--color4);
+}
+
+.figma-bg:hover{
+  background-color: #f37d6d;
+  color: var(--color4);
+}
+
+.vs-bg:hover{
+  background-color: #0078d7;
+  color: var(--color4);
+}
+
+  /*RESPONSIVE SKILLS*/
+  @media(max-width: 420px) {
+    .vs-bg{
+      background-color: #0078d7;
+      color: var(--color4);
+    }   
+    .html-bg{
+      background-color: #f06529;
+      color: var(--color4);
+    }
+    
+    .css-bg{
+      background-color: #264de4 ;
+      color: var(--color4);
+    }
+    
+    .js-bg{
+      background-color: #f0db4f  ;
+      color: var(--color4);
+    }
+    
+    .sql-bg{
+      background-color: #00758f  ;
+      color: var(--color4);
+    }
+    
+    .bs-bg{
+      background-color: #563d7c  ;
+      color: var(--color4);
+    }
+    
+    .react-bg{
+      background-color: #88dded  ;
+      color: var(--color4);
+    }
+    
+    .ci-bg{
+      background-color: #ee5822  ;
+      color: var(--color4);
+    }
+    
+    .figma-bg{
+      background-color: #f37d6d;
+      color: var(--color4);
+    }
+  }
+  /*RESPONSIVE SKILLS*/
+
 /*SKILLS STYLES*/
 
 /*PROJECTS STYLES*/

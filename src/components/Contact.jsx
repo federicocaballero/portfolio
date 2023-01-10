@@ -12,7 +12,7 @@ const Contact = () => {
                     <p class="contact-text">¿Te interesa lo que hago?</p>
                     <p class="contact-text">Trabajemos juntos!</p>
                 </div>
-                <div class="col d-flex flex-column justify-content-around">
+                <div class="col d-flex flex-column justify-content-start">
                     <p class="text-uppercase title text-center">mis redes</p>
                     <div className="row d-flex flex-column">
                         <div className="col d-flex justify-content-evenly">
