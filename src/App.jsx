@@ -1,5 +1,4 @@
 import './App.css';
-import AboutMe from './components/AboutMe';
 import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
@@ -11,7 +10,6 @@ function App() {
     <>
     <Navbar/>
     <Banner/>
-    <AboutMe/>
     <Skills/>
     <ProjectsContainer/>
     <Contact/>

@@ -20,6 +20,7 @@
 
 .subtitle{
   color: var(--color1);
+  text-transform: capitalize;
 }
 
 /* WAVES STYLES */
@@ -75,12 +76,34 @@
 .banner-component{
   background-color: var(--color4);
   color: var(--color1);
+  padding: 10px;
+}
+
+.banner-title{
   font-size: 34px;
   font-weight: bolder;
 }
 
+.banner-subtitle{
+  font-size: 34px;
+  font-weight: bolder;
+  color: var(--color2);
+}
+.banner-text{
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--color1);
+}
+
 .banner-button{
-  border: solid 3px var(--color1);
+  font-size: 20px;
+  padding: 10px;
+  color: var(--color1);
+  border: solid 3px var(--color3);
+}
+
+.banner-button a{
+  text-decoration: none;
   color: var(--color1);
 }
 
@@ -105,6 +128,7 @@
   font-weight: normal;
   color: var(--color3);
 }
+
 /*ABOUT ME STYLES*/
 
 /*SKILLS STYLES*/
@@ -213,6 +237,10 @@
 
 /*RESPONSIVE MOBILE*/
 @media(max-width: 420px) {
+  .banner-img{
+    display: none;
+  }
+  
   /*SKILLS*/
   .vs-bg{
     background-color: #0078d7;
@@ -251,5 +279,15 @@
     color: var(--color4);
   }
   /*SKILLS*/
+}
+
+@media(max-width: 850px) {
+  .banner-img{
+    display: none;
+  }
+
+  .banner-col{
+    margin: auto;
+  }
 }
 /*RESPONSIVE MOBILE*/

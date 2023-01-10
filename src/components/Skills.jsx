@@ -10,22 +10,22 @@ const Skills = () => {
         <h3 className="text-uppercase title text-center title">Skills</h3>
         <div class="row d-flex justify-content-between text-center">
             
-            <div class="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center ">
+            <div class="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center text-uppercase">
                 <h4 class="subtitle" >Lenguajes de programacion</h4>
                 <h6 class="w-50 btn btn-outline-secondary html-bg" ><i class="fa-brands fa-html5"></i> HTML</h6>
                 <h6 class="w-50 btn btn-outline-secondary css-bg" ><i class="fa-brands fa-css3-alt"></i> CSS</h6>
-                <h6 class="w-50 btn btn-outline-secondary js-bg" ><i class="fa-brands fa-square-js"></i> JAVASCRIPT</h6>
-                <h6 class="w-50 btn btn-outline-secondary sql-bg" ><i class="fa-solid fa-database"></i> SQL</h6>
+                <h6 class="w-50 btn btn-outline-secondary js-bg" ><i class="fa-brands fa-square-js"></i> Javascript</h6>
+                <h6 class="w-50 btn btn-outline-secondary sql-bg" ><i class="fa-solid fa-database"></i> SQL-SERVER</h6>
             </div>
             
-            <div class="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center ">
+            <div class="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center text-uppercase">
                 <h4 class="subtitle" >Frameworks y librerias</h4>
                 <h6 class="w-50 btn btn-outline-secondary bs-bg"><i class="fa-brands fa-bootstrap"></i> Bootstrap</h6>
                 <h6 class="w-50 btn btn-outline-secondary react-bg"><i class="fa-brands fa-react"></i> React</h6>
                 <h6 class="w-50 btn btn-outline-secondary ci-bg"><i class="fa-solid fa-fire-flame-curved"></i> Codeignither</h6>
             </div>
 
-            <div className="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center ">
+            <div className="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center text-uppercase">
                 <h4 class="subtitle" >Software y herramientas</h4>
                 <h6 class="w-50 btn btn-outline-secondary figma-bg"><i class="fa-brands fa-figma "></i> Figma</h6>
                 <h6 class="w-50 btn btn-outline-secondary vs-bg"><iconify-icon icon="mdi:microsoft-visual-studio"></iconify-icon> VS Code</h6>
