@@ -1,5 +1,3 @@
-
-
 /*GLOBALS*/
 *{
   font-family: 'IBM Plex Mono', monospace;
@@ -102,7 +100,6 @@
   font-size: 34px;
   font-weight: bolder;
 }
-
 .AB-text{
   font-size: 20px;
   font-weight: normal;
@@ -160,67 +157,16 @@
   background-color: #0078d7;
   color: var(--color4);
 }
-
-  /*RESPONSIVE SKILLS*/
-  @media(max-width: 420px) {
-    .vs-bg{
-      background-color: #0078d7;
-      color: var(--color4);
-    }   
-    .html-bg{
-      background-color: #f06529;
-      color: var(--color4);
-    }
-    
-    .css-bg{
-      background-color: #264de4 ;
-      color: var(--color4);
-    }
-    
-    .js-bg{
-      background-color: #f0db4f  ;
-      color: var(--color4);
-    }
-    
-    .sql-bg{
-      background-color: #00758f  ;
-      color: var(--color4);
-    }
-    
-    .bs-bg{
-      background-color: #563d7c  ;
-      color: var(--color4);
-    }
-    
-    .react-bg{
-      background-color: #88dded  ;
-      color: var(--color4);
-    }
-    
-    .ci-bg{
-      background-color: #ee5822  ;
-      color: var(--color4);
-    }
-    
-    .figma-bg{
-      background-color: #f37d6d;
-      color: var(--color4);
-    }
-  }
-  /*RESPONSIVE SKILLS*/
-
 /*SKILLS STYLES*/
 
 /*PROJECTS STYLES*/
 .projects-text{
   color: var(--color2);
 }
-
 .link-projects{
     text-decoration: none;
     color: var(--color3);
 }
-
 .link-projects:hover{
   color: var(--color1);
   transition: 0.5s;
@@ -236,7 +182,6 @@
   font-size: 34px;
   font-weight: bolder;
 }
-
 .contact-text{
   font-size: 20px;
   font-weight: normal;
@@ -264,3 +209,47 @@
 }
 
 /*FOOTER STYLES*/
+
+
+/*RESPONSIVE MOBILE*/
+@media(max-width: 420px) {
+  /*SKILLS*/
+  .vs-bg{
+    background-color: #0078d7;
+    color: var(--color4);
+  }   
+  .html-bg{
+    background-color: #f06529;
+    color: var(--color4);
+  } 
+  .css-bg{
+    background-color: #264de4 ;
+    color: var(--color4);
+  }
+  .js-bg{
+    background-color: #f0db4f  ;
+    color: var(--color4);
+  }
+  .sql-bg{
+    background-color: #00758f  ;
+    color: var(--color4);
+  }  
+  .bs-bg{
+    background-color: #563d7c  ;
+    color: var(--color4);
+  }
+  .react-bg{
+    background-color: #88dded  ;
+    color: var(--color4);
+  }
+  .ci-bg{
+    background-color: #ee5822  ;
+    color: var(--color4);
+  }
+  .figma-bg{
+    background-color: #f37d6d;
+    color: var(--color4);
+  }
+  /*SKILLS*/
+}
+/*RESPONSIVE MOBILE*/
