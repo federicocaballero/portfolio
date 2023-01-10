@@ -3,7 +3,7 @@ import React from "react"
 const Navbar = () => {
     return(
         <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary p-0 ">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary p-0">
         <div className="container-fluid navbar-component">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -11,19 +11,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav text-uppercase text-light fw-bolder">
                 <li className="nav-item">
-                <a className="nav-link links" href="#">Home</a>
+                <a className="nav-link links" href="#home">Home</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link links" href="#">About me</a>
+                <a className="nav-link links" href="#aboutme">About me</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link links" href="#">Skills</a>
+                <a className="nav-link links" href="#skills">Skills</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link links" href="#">Projects</a>
+                <a className="nav-link links" href="#projects">Projects</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link links" href="#">Contact</a>
+                <a className="nav-link links" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>

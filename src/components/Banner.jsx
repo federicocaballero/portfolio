@@ -3,7 +3,8 @@ import React from "react"
 const Banner = () => {
     return(
         <>
-        <div class="text-center banner-component p-4">
+        
+        <div class="text-center banner-component p-4" id="home">
         <div class="row">
             <div class="col-md-8 p-0  ">
                 <div className="w-100 h-100 d-flex flex-column align-items-center justify-content-center ">
@@ -11,8 +12,8 @@ const Banner = () => {
                     <p>My name is Federico. <br/>
                     I'm junior frontend developer</p>
                     <div class=" d-flex justify-content-evenly gap-4">
-                        <button type="button" class="btn btn-outline text-uppercase">contact me</button>
-                        <button type="button" class="btn btn-outline text-uppercase">projects</button>
+                        <button type="button" class="banner-button btn btn-outline text-uppercase links">contact me</button>
+                        <button type="button" class="banner-button btn btn-outline text-uppercase links">projects</button>
                     </div>
                     
                 </div>

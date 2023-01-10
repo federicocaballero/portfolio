@@ -1,10 +1,10 @@
-.App {
-  text-align: center;
-}
+
 
 /*GLOBALS*/
 *{
   font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  padding: 0; 
 }
 :root {
   --color1: #ffffff;
@@ -12,6 +12,35 @@
   --color3: #808080;
   --color4: #090909;
 }
+
+.prueba{
+  height: 100px; overflow: hidden;
+}
+
+.prueba2{
+  height: 100%; 
+  width: 100%;
+}
+
+.prueba3{
+  stroke: none; fill: var(--color4);
+}
+
+
+.pruebaa{
+  height: 100px; overflow: hidden;
+  background-color: #090909;
+}
+
+.prueba22{
+  height: 100%; width: 100%;
+}
+
+.prueba33{
+  stroke: none; 
+  fill: var(--color1);
+}
+
 /*GLOBALS*/
 
 /*NAVBAR STYLES*/
@@ -25,6 +54,8 @@
 
 .links:hover{
   color: var(--color3);
+  transition: 0.5s;
+  transform: scale(1.2);
 }
 /*NAVBAR STYLES*/
 
@@ -37,12 +68,12 @@
   font-weight: bolder;
 }
 
-.banner-component button{
+.banner-button{
   border: solid 3px var(--color1);
   color: var(--color1);
 }
 
-.banner-component:hover button{
+.banner-button:hover{
   border: solid 3px var(--color1);
   color: var(--color1);
   transition: 0.5s;
@@ -95,3 +126,40 @@
   transform: scale(1.2);
 }
 /*PROJECTS STYLES*/
+
+
+/*CONTACT STYLES*/
+.contact-component{
+  background-color: var(--color4);
+  color: var(--color1);
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.contact-text{
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--color1);
+}
+.link-contact{
+  text-decoration: none;
+  color: var(--color3);
+}
+.link-contact:hover{
+  color: var(--color1);
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+/*CONTACT STYLES*/
+
+/*FOOTER STYLES*/
+
+.footer{
+  background-color: var(--color4);
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--color1);
+}
+
+/*FOOTER STYLES*/
