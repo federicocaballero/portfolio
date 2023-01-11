@@ -12,7 +12,7 @@ const Banner = () => {
                     <p class="banner-title">Me llamo Federico Caballero</p>
                     <p class="banner-text">
                         Soy desarrollador frontend junior.
-                        Complete cursos sobre HTML, CSS, Javascript, Bootstrap y algunos mas. Tambien tengo algunos conocimientos sobre Codeigniter, Laravel y SQL-Server<br/>
+                        Complete cursos sobre HTML, CSS, Javascript, Bootstrap y React. Tambien tengo algunos conocimientos sobre Codeigniter, Laravel y SQL-Server<br/>
                         Soy estudiante de la carrera de sistemas de información, gracias a ello, hace algunos años descubri mi pasión por el desarrollo web.<br/> 
                     </p>
                     <div class="d-flex w-100 justify-content-evenly pt-1 ">

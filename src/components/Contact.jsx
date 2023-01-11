@@ -13,21 +13,19 @@ const Contact = () => {
                     <p class="contact-text">Trabajemos juntos!</p>
                 </div>
                 <div class="col d-flex flex-column justify-content-start">
-                    <p class="text-uppercase title text-center">mis redes</p>
+                    <p class="text-uppercase title text-center">mis redes</p>            
                     <div className="row d-flex flex-column">
                         <div className="col d-flex justify-content-evenly">
-                            <a href="#" class="link-contact">
+                            <a target="blank" href="https://www.linkedin.com/in/federico-caballero-b81732224/" class="link-contact">
                                 <i class="bi bi-linkedin"></i>
                             </a>    
-                            
-                            <a href="mailto:fedecaballero1234@gmail.com" class="link-contact">
+                            <a target="blank" href="mailto:fedecaballero1234@gmail.com" class="link-contact">
                                 <i class="bi bi-envelope-at-fill"></i>
                             </a>
-
-                            <a href="#" class="link-contact">
+                            <a target="blank" href="https://github.com/federicocaballero" class="link-contact">
                                 <i class="bi bi-github"></i>
                             </a>
-                            <a href="#" class="link-contact">
+                            <a target="blank" href="https://www.instagram.com/fedecaballero11/" class="link-contact">
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </div>

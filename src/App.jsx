@@ -3,8 +3,7 @@ import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import ProjectsContainer from './containers/ProjectsContainer';
-import Contact from './components/Contact'
-import Footer from './components/Footer';
+import Contact from './components/Contact';
 function App() {
   return (
     <>
@@ -13,7 +12,6 @@ function App() {
     <Skills/>
     <ProjectsContainer/>
     <Contact/>
-    <Footer/>
     </>
   );
 }
