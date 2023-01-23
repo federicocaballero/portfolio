@@ -1,5 +1,5 @@
 import React from "react"
-
+import logo from "../assets/images/coding.png"
 const Banner = () => {
     return(
         <>
@@ -23,7 +23,7 @@ const Banner = () => {
                 </div>
             </div>
             <div class="col-md-4 p-3 banner-img">
-                <img src="http://localhost:3000/coding.png" class="img-fluid" alt="img2"/>
+                <img src={logo} class="img-fluid" alt="ismg3"/>
             </div>
         </div>
         </div>
