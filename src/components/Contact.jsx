@@ -3,8 +3,8 @@ import React from "react"
 const Contact = () => {
     return(
         <>
-            <div class="prueba" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" class="prueba2"><path d="M-0.00,49.98 C150.00,149.99 271.49,-49.98 500.00,49.98 L500.00,-0.00 L-0.00,-0.00 Z" class="prueba3"></path></svg></div>
-        <div class="pruebaa" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" class="prueba22"><path d="M-0.00,49.98 C150.00,149.99 271.49,-49.98 500.00,49.98 L500.00,-0.00 L-0.00,-0.00 Z" class="prueba33"></path></svg></div>
+            <div class="wave-top1" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave-top2"><path d="M-0.00,49.98 C150.00,149.99 271.49,-49.98 500.00,49.98 L500.00,-0.00 L-0.00,-0.00 Z" class="wave-top3"></path></svg></div>
+        <div class="wave-bottom1" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave-bottom2"><path d="M-0.00,49.98 C150.00,149.99 271.49,-49.98 500.00,49.98 L500.00,-0.00 L-0.00,-0.00 Z" class="wave-bottom3"></path></svg></div>
             <div class="contact-component ps-5 pt-0 pe-5 pb-5 m-0" id="contact">    
             <div class="row">
                 <div class="col text-center">

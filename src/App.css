@@ -24,30 +24,32 @@
 }
 
 /* WAVES STYLES */
-.prueba{
+
+/* prueba */
+.wave-top1{
   height: 100px; overflow: hidden;
 }
-
-.prueba2{
+/* prueba2 */
+.wave-top2{
   height: 100%; 
   width: 100%;
 }
-
-.prueba3{
+/* prueba3 */
+.wave-top3{
   stroke: none; fill: var(--color4);
 }
 
-
-.pruebaa{
+/* pruebaa */
+.wave-bottom1{
   height: 100px; overflow: hidden;
   background-color: #090909;
 }
-
-.prueba22{
+/* prueba22 */
+.wave-bottom2{
   height: 100%; width: 100%;
 }
-
-.prueba33{
+/* prueba33 */
+.wave-bottom3{
   stroke: none; 
   fill: var(--color1);
 }
