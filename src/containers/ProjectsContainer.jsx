@@ -16,11 +16,11 @@ const ProjectsContainer = () => {
             <div class="carousel-item active">
                 <Projects title={'Birreria'} description={'Este proyecto muestra las opciones y locales de un local de cerveza artesanal. Muestra las sucursales y marcas que sirven.'} url={'https://frontend-birreria.web.app/'} urlRepo={'https://github.com/federicocaballero/Birreria-FrontEnd.git'} img={birreria}/>
             </div>
-            <div class="carousel-item active">
-                <Projects title={'Blog de café'} description={'Blog de sobre cafe con distintas paginas para navegar (Contacto, Cursos, Nosotros)'} url={'https://blogdecafetp.netlify.app/index.html'} urlRepo={'#'} img={blogCafe}/>
-            </div>
             <div class="carousel-item">
                 <Projects title={'Travel Agency'} description={'Este pagina muestra los distintos destinos y ofertas de una agencia de viajes'} url={''} urlRepo={'https://github.com/federicocaballero/Travel-Agency-Home.git'} img={travelAgency} />
+            </div>
+            <div class="carousel-item active">
+                <Projects title={'Blog de café'} description={'Blog de sobre cafe con distintas paginas para navegar (Contacto, Cursos, Nosotros)'} url={'https://blogdecafetp.netlify.app/index.html'} urlRepo={'https://github.com/federicocaballero/blog-de-cafe.git'} img={blogCafe}/>
             </div>
             <div class="carousel-item">
                 <Projects title={'Portfolio'} description={'Mi propio portfolio'} url={''} urlRepo={'https://github.com/federicocaballero/portfolio.git'} img={portfolio} />
