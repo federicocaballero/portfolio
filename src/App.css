@@ -25,30 +25,24 @@
 
 /* WAVES STYLES */
 
-/* prueba */
 .wave-top1{
   height: 100px; overflow: hidden;
 }
-/* prueba2 */
 .wave-top2{
   height: 100%; 
   width: 100%;
 }
-/* prueba3 */
 .wave-top3{
   stroke: none; fill: var(--color4);
 }
 
-/* pruebaa */
 .wave-bottom1{
   height: 100px; overflow: hidden;
   background-color: #090909;
 }
-/* prueba22 */
 .wave-bottom2{
   height: 100%; width: 100%;
 }
-/* prueba33 */
 .wave-bottom3{
   stroke: none; 
   fill: var(--color1);
@@ -198,7 +192,6 @@
   transition: 0.5s;
   transform: scale(1.2);
 }
-/*PROJECTS STYLES*/
 
 
 /*CONTACT STYLES*/
@@ -282,10 +275,19 @@
     background-color: #f37d6d;
     color: var(--color4);
   }
+
+  .img-project{
+    margin-top: 200px;  
+}
   /*SKILLS*/
 }
 
 @media(max-width: 850px) {
+/*PROJECTS STYLES*/
+.img-project{
+    margin-top: 200px;  
+}
+/*PROJECTS STYLES*/
   .banner-img{
     display: none;
   }
