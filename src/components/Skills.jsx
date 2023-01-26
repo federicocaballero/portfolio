@@ -7,7 +7,7 @@ const Skills = () => {
         <div class="wave-bottom1" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave-bottom2"><path d="M-0.00,49.98 C150.00,149.99 271.49,-49.98 500.00,49.98 L500.00,-0.00 L-0.00,-0.00 Z" class="wave-bottom3"></path></svg></div>
         <div class="ps-5 pt-0 pe-5 pb-0 m-0 skills-component" id="skills">
             
-        <h3 className="text-uppercase title text-center title">Skills</h3>
+        <h3 className="text-uppercase title text-center title">Habilidades</h3>
         <div class="row d-flex justify-content-between text-center">
             
             <div class="col-md-4 mt-3 text-center gap-2 d-flex flex-column align-items-center text-uppercase">

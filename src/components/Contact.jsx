@@ -9,7 +9,7 @@ const Contact = () => {
             <div class="contact-component ps-5 pt-0 pe-5 pb-5 m-0" id="contact">    
             <div class="row">
                 <div class="col text-center">
-                    <p class="text-uppercase title">Contact me</p>
+                    <p class="text-uppercase title">Contactame</p>
                     <p class="contact-text">¿Te interesa lo que hago?</p>
                     <p class="contact-text">Trabajemos juntos!</p>                    
                 </div>
@@ -19,13 +19,16 @@ const Contact = () => {
                         <div className="col d-flex justify-content-evenly">
                             <a target="blank" href="https://www.linkedin.com/in/federico-caballero-b81732224/" class="link-contact">
                                 <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a target="blank" href="mailto:fedecaballero1234@gmail.com" class="link-contact">
+                                <i class="bi bi-envelope-at-fill"></i>
                             </a>        
                             <a target="blank" href="https://github.com/federicocaballero" class="link-contact">
                                 <i class="bi bi-github"></i>
                             </a>
                             <a target="blank" href="https://www.instagram.com/fedecaballero11/" class="link-contact">
                                 <i class="bi bi-instagram"></i>
-                            </a>
+                            </a>                           
                         </div>
                  
                     </div>

@@ -16,8 +16,8 @@ const Banner = () => {
                         Soy estudiante de la carrera de sistemas de información, gracias a ello, hace algunos años descubri mi pasión por el desarrollo web.<br/> 
                     </p>
                     <div class="d-flex w-100 justify-content-evenly pt-1 ">
-                        <button type="button" class="banner-button btn btn-outline-primary"><a target="blank" href="-">Curriculum</a></button>
-                        <button type="button" class="banner-button btn btn-outline-primary"><a target="blank" href="-">Certificados</a></button>
+                        <button type="button" class="banner-button btn btn-outline-primary"><a target="blank" href="https://drive.google.com/file/d/1xG7PwqVeCqYhNAYzFsJrdVgmofvLZV2U/view?usp=sharing">Curriculum</a></button>
+                        <button type="button" class="banner-button btn btn-outline-primary"><a target="blank" href="https://drive.google.com/drive/folders/1P2azjgI5HwMO0_s44KkSIURPwozrhosX?usp=sharing">Certificados</a></button>
                     </div>
                     
                 </div>
